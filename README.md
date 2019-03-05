@@ -1,19 +1,20 @@
 # Tidying Data from the Human Activity Recognition Using Smartphones Dataset version 1.0
 
-The script run_analysis.R tidies the data collected from the experiment Human Activity Recognition Using Smartphones Dataset Version 1.0 conducted by Smartlab - Non Linear Complex Systems Laboratory [1].  The data from this experiment is available for download from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+The script **run_analysis.R** tidies the data collected from the experiment Human Activity Recognition Using Smartphones Dataset Version 1.0 conducted by Smartlab - Non Linear Complex Systems Laboratory [1].  The data from this experiment is available for download from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
-The run_analysis.R script performs the following steps:
+The **run_analysis.R** script performs the following steps:
 1. Download the experiment data from the source URL above.
-2. Extracts the download file into the **/data** subdirectory of the project.  It creates the **/data** subdirectory if it does not exist.
-3. Loads the FIELD/FEATURE names from **/data/UCI HAR Dataset/features.txt**.
-4. Loads the TRAINING data from **/data/UCI HAR Dataset/train** folder using the previously FIELD names.
-5. Loads the TEST data from **/data/UCI HAR Dataset/test** folder using the previously loaded FIELD names.
-6. Merges the TRAINING and TEST data into a single data set.
-7. In the merged data set, extracted only the measurements for mean and standard deviation for each measurement.
-8. Cleaned up the column names to be more readable in the extracted data set.
-9. Transformed the ACTIVITY field to use descriptive names as defined in **/data/UCI HAR Dataset/activity_labels.txt**.
-10. Saved the tidy dataset to **/data/analysis/HAR Dataset - Tidy.csv**
-11. Created a second tidy dataset with the average of each variable for ech activity and each subject and saved it to **/data/analysis/HAR Dataset - Summarized by Activity and Subject.csv**
+2. Extract the download file into the **/data** subdirectory of the project.  It creates the **/data** subdirectory if it does not exist.
+3. Load the _FIELD/FEATURE_ names from **/data/UCI HAR Dataset/features.txt**.
+4. Load the _TRAINING_ data from **/data/UCI HAR Dataset/train** folder using the previously FIELD names.
+5. Load the _TEST_ data from **/data/UCI HAR Dataset/test** folder using the previously loaded _FIELD_ names.
+6. Merge the _TRAINING_ and _TEST_ data into a single data set.
+7. In the merged data set, extract only the measurements for mean and standard deviation for each measurement.
+8. Clean up the column names to be more readable in the extracted data set.
+9. Transform the _ACTIVITY_ field to use descriptive names as defined in **/data/UCI HAR Dataset/activity_labels.txt**.
+10. Save the tidy dataset to **/data/analysis/HAR Dataset - Tidy.csv**
+11. Create a second tidy dataset with the average of each variable for ech activity and each subject and save it to **/data/analysis/HAR Dataset - Summarized by Activity and Subject.csv**
+12. Save the dataset column names in **/data/analysis/HAR Dataset - Column Names.txt**
 
 ## Environment:
 - RStudio v1.1.463 - Windows
