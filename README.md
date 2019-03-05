@@ -1,4 +1,4 @@
-Tidying Data from the Human Activity Recognition Using Smartphones Dataset version 1.0
+# Tidying Data from the Human Activity Recognition Using Smartphones Dataset version 1.0
 
 The script run_analysis.R tidies the data collected from the experiment Human Activity Recognition Using Smartphones Dataset Version 1.0 conducted by Smartlab - Non Linear Complex Systems Laboratory.  The data from this experiment is available for download from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
@@ -15,7 +15,14 @@ The run_analysis.R script performs the following steps:
 10. Saved the tidy dataset to /data/analysis/HAR Dataset - Tidy.csv
 11. Created a second tidy dataset with the average of each variable for ech activity and each subject and saved it to /data/analysis/HAR Dataset - Summarized by Activey and Subject.csv
 
-References:
+## Environment:
+- RStudio v1.1.463 - Windows
+- R version 3.5.2 (2018-12-20)
+- Platform: x86_64-w64-mingw32/x64 (64-bit)
+- Running under: Windows >= 8 x64 (build 9200)
+- dplyr v0.7.8
+
+## References:
 - Original dataset provided by [1]
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
