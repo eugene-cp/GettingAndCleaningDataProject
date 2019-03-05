@@ -5,13 +5,13 @@ The script **run_analysis.R** tidies the data collected from the experiment Huma
 The **run_analysis.R** script performs the following steps:
 1. Download the experiment data from the source URL above.
 2. Extract the download file into the **/data** subdirectory of the project.  It creates the **/data** subdirectory if it does not exist.
-3. Load the _FIELD/FEATURE_ names from **/data/UCI HAR Dataset/features.txt**.
-4. Load the _TRAINING_ data from **/data/UCI HAR Dataset/train** folder using the previously FIELD names.
-5. Load the _TEST_ data from **/data/UCI HAR Dataset/test** folder using the previously loaded _FIELD_ names.
-6. Merge the _TRAINING_ and _TEST_ data into a single data set.
+3. Load the **_FIELD/FEATURE_** names from **/data/UCI HAR Dataset/features.txt**.
+4. Load the **_TRAINING_** data from **/data/UCI HAR Dataset/train** folder using the previously FIELD names.
+5. Load the **_TEST_** data from **/data/UCI HAR Dataset/test** folder using the previously loaded _FIELD_ names.
+6. Merge the **_TRAINING_** and **_TEST_** data into a single data set.
 7. In the merged data set, extract only the measurements for mean and standard deviation for each measurement.
 8. Clean up the column names to be more readable in the extracted data set.
-9. Transform the _ACTIVITY_ field to use descriptive names as defined in **/data/UCI HAR Dataset/activity_labels.txt**.
+9. Transform the **_ACTIVITY_** field to use descriptive names as defined in **/data/UCI HAR Dataset/activity_labels.txt**.
 10. Save the tidy dataset to **/data/analysis/HAR Dataset - Tidy.csv**
 11. Create a second tidy dataset with the average of each variable for ech activity and each subject and save it to **/data/analysis/HAR Dataset - Summarized by Activity and Subject.csv**
 12. Save the dataset column names in **/data/analysis/HAR Dataset - Column Names.txt**
