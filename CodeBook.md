@@ -68,6 +68,7 @@ We also merged the data coming from both the TRAINING and TEST data sets.  For e
 
 The remaining variables below are just an extract for the Mean and STD measurements from the original data:
 - tBody Acceleration - Mean() - X
+
 - tBody Acceleration - Mean() - Y
 - tBody Acceleration - Mean() - Z
 - tBody Acceleration - STD() - X
