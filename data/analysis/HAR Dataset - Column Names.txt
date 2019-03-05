@@ -1,0 +1,68 @@
+subject
+activity
+tBody Acceleration - Mean() - X
+tBody Acceleration - Mean() - Y
+tBody Acceleration - Mean() - Z
+tBody Acceleration - STD() - X
+tBody Acceleration - STD() - Y
+tBody Acceleration - STD() - Z
+tGravity Acceleration - Mean() - X
+tGravity Acceleration - Mean() - Y
+tGravity Acceleration - Mean() - Z
+tGravity Acceleration - STD() - X
+tGravity Acceleration - STD() - Y
+tGravity Acceleration - STD() - Z
+tBody Acceleration Jerk - Mean() - X
+tBody Acceleration Jerk - Mean() - Y
+tBody Acceleration Jerk - Mean() - Z
+tBody Acceleration Jerk - STD() - X
+tBody Acceleration Jerk - STD() - Y
+tBody Acceleration Jerk - STD() - Z
+tBody Gyro - Mean() - X
+tBody Gyro - Mean() - Y
+tBody Gyro - Mean() - Z
+tBody Gyro - STD() - X
+tBody Gyro - STD() - Y
+tBody Gyro - STD() - Z
+tBody Gyro Jerk - Mean() - X
+tBody Gyro Jerk - Mean() - Y
+tBody Gyro Jerk - Mean() - Z
+tBody Gyro Jerk - STD() - X
+tBody Gyro Jerk - STD() - Y
+tBody Gyro Jerk - STD() - Z
+tBody Acceleration Magnitude - Mean()
+tBody Acceleration Magnitude - STD()
+tGravity Acceleration Magnitude - Mean()
+tGravity Acceleration Magnitude - STD()
+tBody Acceleration Jerk Magnitude - Mean()
+tBody Acceleration Jerk Magnitude - STD()
+tBody Gyro Magnitude - Mean()
+tBody Gyro Magnitude - STD()
+tBody Gyro Jerk Magnitude - Mean()
+tBody Gyro Jerk Magnitude - STD()
+fBody Acceleration - Mean() - X
+fBody Acceleration - Mean() - Y
+fBody Acceleration - Mean() - Z
+fBody Acceleration - STD() - X
+fBody Acceleration - STD() - Y
+fBody Acceleration - STD() - Z
+fBody Acceleration Jerk - Mean() - X
+fBody Acceleration Jerk - Mean() - Y
+fBody Acceleration Jerk - Mean() - Z
+fBody Acceleration Jerk - STD() - X
+fBody Acceleration Jerk - STD() - Y
+fBody Acceleration Jerk - STD() - Z
+fBody Gyro - Mean() - X
+fBody Gyro - Mean() - Y
+fBody Gyro - Mean() - Z
+fBody Gyro - STD() - X
+fBody Gyro - STD() - Y
+fBody Gyro - STD() - Z
+fBody Acceleration Magnitude - Mean()
+fBody Acceleration Magnitude - STD()
+fBody Body Acceleration Jerk Magnitude - Mean()
+fBody Body Acceleration Jerk Magnitude - STD()
+fBody Body Gyro Magnitude - Mean()
+fBody Body Gyro Magnitude - STD()
+fBody Body Gyro Jerk Magnitude - Mean()
+fBody Body Gyro Jerk Magnitude - STD()

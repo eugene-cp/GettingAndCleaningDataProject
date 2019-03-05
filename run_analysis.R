@@ -104,6 +104,7 @@ if (!file.exists(analysisPath))
   dir.create(analysisPath)
 }
 
-message("Saving analysis data to directory ", analysisPath )
-write.csv(mydata, paste0(analysisPath, "/HAR Dataset-Tidy.csv"))
-write.csv(summaryByActivitySubject, paste0(analysisPath, "/HAR Dataset-Summarized by Activity and Subject.csv"))
+message("Saving analysis data to ", analysisPath )
+write.csv(mydata, paste0(analysisPath, "/HAR Dataset - Tidy.csv"))
+write.csv(summaryByActivitySubject, paste0(analysisPath, "/HAR Dataset - Summarized by Activity and Subject.csv"))
+write.table(colnames(mydata), paste0(analysisPath, "/HAR Dataset - Column Names.txt"), quote=FALSE,row.names = FALSE, col.names= FALSE)
