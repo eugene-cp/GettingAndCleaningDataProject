@@ -4,7 +4,7 @@ The script run_analysis.R tidies the data collected from the experiment Human Ac
 
 The run_analysis.R script performs the following steps:
 1. Download the experiment data from the source URL above.
-2. Extracts the download file into the /data subdirectory of the project.
+2. Extracts the download file into the /data subdirectory of the project.  It creates the /data subdirectory if it does not exist.
 3. Loads the FIELD/FEATURE names from /data/UCI HAR Dataset/features.txt.
 4. Loads the TRAINING data from /data/UCI HAR Dataset/train folder using the previously FIELD names.
 5. Loads the TEST data from /data/UCI HAR Dataset/test folder using the previously loaded FIELD names.
@@ -13,7 +13,7 @@ The run_analysis.R script performs the following steps:
 8. Cleand up the column names to be more readable in the extracted data set.
 9. Transformed the ACTIVITY field to use descriptive names as defined in /data/UCI HAR Dataset/activity_labels.txt.
 10. Saved the tidy dataset to /data/analysis/HAR Dataset - Tidy.csv
-11. Created a second tidy dataset with the average of each variable for ech activity and each subject and saved it to /data/analysis/HAR Dataset - Summarized by Activey and Subject.csv
+11. Created a second tidy dataset with the average of each variable for ech activity and each subject and saved it to /data/analysis/HAR Dataset - Summarized by Activity and Subject.csv
 
 ## Environment:
 - RStudio v1.1.463 - Windows
